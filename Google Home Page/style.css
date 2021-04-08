@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 15em;
+    margin-left: auto;
+    padding-top: 20px;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav img {
+   width: 35px;
+   margin-left: 5px;
+}
+
+nav div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 20px;;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 11em;
+}
+
+input {
+    width: 90%;
+    max-width: 47em;
+    height: 3em;
+    margin: 30px auto 30px auto;
+    border-radius: 30px;
+    border: 2px solid #DFE1E5;
+    background-image: url('img/searchicon.png');
+    background-size: 1.2em;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: inherit;
+    font-family: inherit;
+}
+input:hover {
+    border-color: #EAEAEB;
+    border: 2px solid #EAEAEB;
+    box-shadow: 1px 1px 5px#EAEAEB, -1px -1px 5px #EAEAEB;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #EAEAEB;
+    box-shadow: 1px 1px 5px#EAEAEB, -1px -1px 5px #EAEAEB;
+}
+
+button {
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1em;
+    margin: 5px;
+}
+.buttons{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;;
+}
+
+button:hover {
+    border: 1px solid #DFE1E5;
+}
+
+main p a {
+    text-decoration: none;
+    color: #610DBD;
+    padding-left: 5px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: rgb(107, 106, 106);
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+}
+footer a {
+    text-decoration: none;
+    color:rgb(107, 106, 106);
+    margin: 0 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .top{
+    padding: 15px 6em;
+    border-bottom: 1px solid #DFE1E5;
+}
+footer .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottom div {
+    margin: 20px;
+}
+
+
