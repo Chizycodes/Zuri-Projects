@@ -32,6 +32,7 @@ form {
 
 div.input-box {
     width: 100%;
+    position: relative;
 }
 
 h2 {
@@ -51,6 +52,7 @@ h2 {
     border-radius: 7px;
     border: 2px solid #514949;
     color: #2b2a2a;
+   
 }
 
 .name:hover {
@@ -73,7 +75,7 @@ h4 {
 .dob {
     border: 2px solid #514949;
     padding: 5px;
-    width: 7em;
+    width: 25%;
     border-radius: 5px;
     font-family: inherit;
     color: #2b2a2a;
@@ -104,7 +106,7 @@ i.fa-cc-visa {
     border-radius: 5px;
     border: 2px solid #514949;
     font-family: inherit;
-    width: 7em;
+    width: 25%;
     padding: 5px;
 }
 
@@ -138,11 +140,17 @@ button:hover {
     font-weight: 900;
 }
 
-
+.icon, .fa-envelope {
+    position: absolute;
+    right: 33px;
+    top: 12px;
+    color: #514949;
+}
 
 #b2 {
     margin-left: 20px;
 }
+
 
 
 
