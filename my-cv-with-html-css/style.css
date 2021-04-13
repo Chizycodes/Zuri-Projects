@@ -43,7 +43,7 @@ h3 {
 }
 
 .details {
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 .skills div {
@@ -67,6 +67,10 @@ h3 {
 .job ul {
     margin: 0 0 2em 2em;
     max-width: 800px;
+}
+
+.job {
+    margin-bottom: 2em;
 }
 
 a {
